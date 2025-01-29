@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To'yga Taklifnoma</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #2A2A2A, #292929);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            min-height: 100vh;
+        }
+        .container {
+            background-image: url('https://www.greenvelope.com/GreenvelopeImages/styles/15276.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 570px;
+            height: 810px;
+            /* border-radius: 20px; */
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            text-align: center;
+        }
+        .content {
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            padding-left: 110px;
+            padding-right: 110px;
+            font-size: 44px;
+            font-weight: bold;
+            color: #C6AD43;
+            margin: 10px 0;
+            text-transform: uppercase;
+        }
+        h2 {
+            font-size: 32px;
+            color: #000;
+            font-weight: bold;
+            margin: 5px 0;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 16px;
+            color: #4A4A4A;
+            margin: 10px 0;
+        }
+        .highlight {
+            padding-left: 100px;
+            padding-right: 100px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #555;
+        }
+        .footer {
+            position: absolute;
+           padding-top: 20px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            font-size: 14px;
+            color: #555;
+        }
+        .address {
+            margin-top: 20px;
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: center;
+        }
+        .map-link {
+            font-size: 14px;
+            color: #FE0032;
+            text-decoration: none;
+            font-weight: bold;
+        }
+            /* Base styles remain the same */
+
+    /* Media query for smaller screens (tablets, mobiles, including iPhone SE) */
+    @media (max-width: 600px) {
+        .container {
+            width: 100%;  /* Scale down for better fit */
+            max-height: 936px;
+            
+            padding: 10px;
+            max-width: 100%; 
+        }
+        h1 {
+            font-size: 28px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        .highlight {
+            padding-left: 15px;
+            padding-right: 15px;
+            font-size: 16px;
+        }
+        .address {
+            font-size: 14px;
+        }
+        .footer {
+            font-size: 12px;
+        }
+    }
+
+    /* Extra specific media query for iPhone SE and similar small devices */
+    @media (max-width: 375px) {
+        .container {
+            width: 95%; /* Fit more naturally on the iPhone SE screen */
+            margin: auto; /* Ensure the container stays centered */
+            padding: 5px;
+        }
+        h1 {
+            font-size: 22px; /* Reduce heading size further for small screens */
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        h2 {
+            font-size: 18px;
+        }
+        .highlight {
+            font-size: 14px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        p {
+            font-size: 14px;
+        }
+        .address {
+            font-size: 12px;
+        }
+        .footer {
+            font-size: 11px;
+        }
+    }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <p class="highlight">Assalomu Aleykum Aziz Mehmonlar!</p>
+            <p>Sizlarni farzandlarimiz</p>
+            <h1>Jahongir & Bonu</h1>
+            <p>ning nikoh to'yi munosabati bilan <br><strong>"Visol Oqshomi"</strong>ga lutfan taklif etamiz.</p>
+            <h2>02.02.2025</h2>
+            <p>kuni soat 18:00 da</p>
+            <div class="address">
+                Manzil: Chirchiq shahar, Ximpark, <br>"Kimyogar" to'yxonasi
+            </div>
+            <div class="footer">
+                <a href="https://yandex.uz/maps/org/78700431985/?ll=69.582570%2C41.464121&amp;z=18.36" 
+                   target="_blank" class="map-link">
+                   Elektron lakatsiya
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
